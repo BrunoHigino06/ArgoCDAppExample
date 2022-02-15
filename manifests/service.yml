@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: simple-service
+  name: frontendservice
 spec:
   type: ClusterIP
   selector:
-    app: trivial-go-web-app
+    app: frontendapp
   ports:
     - protocol: TCP
       port: 80
