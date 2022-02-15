@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: frontenddeployment
+        app: frontend
     spec:
       containers:
       - name: webserver-simple

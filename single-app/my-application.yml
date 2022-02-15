@@ -23,7 +23,7 @@ spec:
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
-    namespace: frontendapp
+    namespace: frontend
 
   # Sync policy
   syncPolicy:
