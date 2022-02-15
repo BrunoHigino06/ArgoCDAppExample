@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/BrunoHigino06/ArgoCDAppExample.git
     targetRevision: HEAD
-    path: ./FrontEndDeploy
+    path: ./frontenddeploy
    
     # directory
     directory:
